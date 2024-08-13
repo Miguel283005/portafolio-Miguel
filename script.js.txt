@@ -1,0 +1,7 @@
+
+function mostrarMensaje() {
+    document.getElementById('mensaje').textContent = "¡Hola! Bienvenido al portafolio de Miguel Pérez.";
+}
+
+document.getElementById('miBoton').addEventListener('click', mostrarMensaje);
+
